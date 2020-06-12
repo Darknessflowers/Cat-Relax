@@ -67,7 +67,7 @@ body {
   position: relative;
   z-index: 100;
   pointer-events: none;
-  max-width: 290px;
+  width: 290px;
 }
 .placeholder {
   width:200px;
