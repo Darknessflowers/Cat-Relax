@@ -12,7 +12,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 }
 
@@ -25,6 +25,9 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  background: #89e2f7;
+  max-height: 40vh;
 }
 .bar {
   width: 100%;
@@ -49,10 +52,10 @@ body {
   );
 }
 .ball {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background: #555;
+  /* width: 15px; */
+  /* height: 15px; */
+  /* border-radius: 50%; */
+  /* background: #555; */
   margin-top: 10px;
   animation: aToB 11s linear forwards infinite;
 }
@@ -73,19 +76,19 @@ body {
 }
 @keyframes backgroundBreathe {
   0% {
-    background-color: #ACB6E5;
+    background:url(img/2.png) #ACB6E5;
 }
 40% {
-    background-color: #a0c1e2;
+    background: url(img/2.png) #a0c1e2;
 }
 60% {
-    background-color: #88d8db;
+    background: url(img/2.png) #88d8db;
 }
 80% {
-    background-color: #a0c1e2;
+    background: url(img/2.png) #a0c1e2;
 }
 100% {
-    background-color: #ACB6E5;
+    background: url(img/2.png) #ACB6E5;
 }
 }
 
