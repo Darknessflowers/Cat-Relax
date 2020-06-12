@@ -56,26 +56,36 @@ body {
   margin-top: 10px;
   animation: aToB 11s linear forwards infinite;
 }
+.cat {
+  display: flex;
+}
+.cat img {
+  margin-bottom: -114px;
+  position: relative;
+  z-index: 100;
+  pointer-events: none;
+  max-width: 290px;
+}
 .placeholder {
   width:200px;
   height: 200px;
   background: #eee;
 }
 @keyframes backgroundBreathe {
-0% {
-  background-color: #fffcdc;
+  0% {
+    background-color: #ACB6E5;
 }
 40% {
-  background-color:#d9a7c7;
+    background-color: #a0c1e2;
 }
 60% {
-  background-color: #ee9ca7;
+    background-color: #88d8db;
 }
 80% {
-  background-color: #d9a7c7;
+    background-color: #a0c1e2;
 }
 100% {
-  background-color: #fffcdc;
+    background-color: #ACB6E5;
 }
 }
 
